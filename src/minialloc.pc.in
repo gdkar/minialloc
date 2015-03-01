@@ -1,0 +1,12 @@
+prefix=@PREFIX@
+exec_prefix=@PREFIX@
+libdir=@LIBDIR@
+includedir=@INCDIR@
+
+Name: minialloc
+Description: minialloc media player client library
+Version: @VERSION@
+Requires:
+Libs: -L${libdir} -lminialloc
+Libs.private: @PRIV_LIBS@
+Cflags: -I${includedir}

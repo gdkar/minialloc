@@ -1,0 +1,11 @@
+minialloc_version
+malloc
+calloc
+realloc
+valloc
+pvalloc
+free
+memalign
+posix_mamalign
+aligned_alloc
+
